@@ -1,9 +1,27 @@
-.container {
-  max-width: 1024px;
-  margin: 0 auto;
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* ****** */
+/* Header */
+/* ****** */
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .logoCindy {
-  width: 120px;
-  height: 120px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.navbarLinks {
+  display: flex;
+  justify-content: space-evenly;
+}
+.setting-and-menu {
+  margin-top: 30px;
 }
