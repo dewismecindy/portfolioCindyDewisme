@@ -3,13 +3,11 @@ import css from "../img/logos/CSS3.png";
 import express from "../img/logos/express.png";
 import git from "../img/logos/git.png";
 import html from "../img/logos/HTML5.png";
-
 import javascript from "../img/logos/javascript.png";
 import mongodb from "../img/logos/mongodb.png";
 import nodejs from "../img/logos/nodejs.png";
-
 import react from "../img/logos/React.png";
-
+import Footer from "../components/Footer";
 const Presentation = () => {
   return (
     <div className="container">
@@ -194,6 +192,7 @@ const Presentation = () => {
           </p>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

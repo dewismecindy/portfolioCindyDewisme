@@ -1,11 +1,9 @@
 import { Link } from "react-router-dom";
 
 // Import images
-
-import marmiton from "../img/marmiton.jpg";
 import marvel from "../img/marvel.png";
 import netflix from "../img/netflix.png";
-
+import Footer from "../components/Footer";
 const Project = () => {
   return (
     <div className="container">
@@ -71,6 +69,7 @@ const Project = () => {
           </Link> */}
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

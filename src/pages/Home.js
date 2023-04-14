@@ -7,18 +7,15 @@ import express from "../img/logos/express.png";
 import Logo from "../img/G.png";
 import git from "../img/logos/git.png";
 import html from "../img/logos/HTML5.png";
-
 import javascript from "../img/logos/javascript.png";
-
 import marvel from "../img/marvel.png";
 import mongodb from "../img/logos/mongodb.png";
 import nodejs from "../img/logos/nodejs.png";
 import reseau from "../img/reseau.jpg";
 import react from "../img/logos/React.png";
-
 import vinted from "../img/vinted.png";
-
 import dossierCV from "../img/dossierCV.png";
+import Footer from "../components/Footer";
 const Home = () => {
   return (
     <main className="container">
@@ -141,6 +138,7 @@ const Home = () => {
           <img className="visuel-contact" src={reseau} alt="" />
         </div>
       </section>
+      <Footer />
     </main>
   );
 };

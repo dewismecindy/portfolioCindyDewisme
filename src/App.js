@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // import de mes pages
 import Contact from "./pages/Contact";
-import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import MenuBurger from "./components/MenuBurger";
@@ -35,7 +34,7 @@ function App() {
             <Route path="/project" element={<Project />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-          <Footer />
+
           {displayMenu && <MenuBurger setDisplayMenu={setDisplayMenu} />}
         </Router>
       </div>
