@@ -1,13 +1,14 @@
-/* import React from "react";
-import { TagCloud } from "@frank-mayer/react-tag-cloud";
+// @ts-check
+import React from "react";
+import TagCloud from "@frank-mayer/react-tag-cloud";
 
 const Sphere = () => (
   <TagCloud
-    options={(w: Window & typeof globalThis): TagCloudOptions => ({
+    options={(w) => ({
       radius: Math.min(500, w.innerWidth, w.innerHeight) / 2,
       maxSpeed: "fast",
     })}
-    onClick={(tag: string, ev: MouseEvent) => alert(tag)}
+    onClick={(tag, ev) => alert(tag)}
     onClickOptions={{ passive: true }}
   >
     {[
@@ -42,4 +43,3 @@ const Sphere = () => (
 );
 
 export default Sphere;
- */

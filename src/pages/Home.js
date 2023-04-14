@@ -9,15 +9,15 @@ import git from "../img/logos/git.png";
 import html from "../img/logos/HTML5.png";
 
 import javascript from "../img/logos/javascript.png";
-import openSite from "../img/OpenSite.jpg";
+
 import marvel from "../img/marvel.png";
 import mongodb from "../img/logos/mongodb.png";
 import nodejs from "../img/logos/nodejs.png";
 import reseau from "../img/reseau.jpg";
 import react from "../img/logos/React.png";
-import communicate from "../img/communicate.jpg";
+
 import vinted from "../img/vinted.png";
-import cvPortofolio from "../img/cvPortofolio.png";
+
 import dossierCV from "../img/dossierCV.png";
 const Home = () => {
   return (
@@ -66,10 +66,6 @@ const Home = () => {
             <p>JavaScript</p>
           </div>
           <div className="logos-competences">
-            <img src={nodejs} alt="Picto nodejs" />
-            <p>Node.js</p>
-          </div>
-          <div className="logos-competences">
             <img src={html} alt="Picto html" />
             <p>HTML5</p>
           </div>
@@ -77,6 +73,11 @@ const Home = () => {
             <img src={css} alt="Picto css" />
             <p>CSS3</p>
           </div>
+          <div className="logos-competences">
+            <img src={nodejs} alt="Picto nodejs" />
+            <p>Node.js</p>
+          </div>
+
           <div className="logos-competences">
             <img src={express} alt="Picto express" />
             <p>Express</p>
